@@ -1,0 +1,21 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html",
+  "/[...redirect]": "pages/[...redirect].html",
+  "/api/trends/available": "pages/api/trends/available.js",
+  "/api/trends/place/[id]": "pages/api/trends/place/[id].js",
+  "/bookmarks": "pages/bookmarks.html",
+  "/home": "pages/home.html",
+  "/": "pages/index.html",
+  "/people": "pages/people.html",
+  "/trends": "pages/trends.html",
+  "/tweet/[id]": "pages/tweet/[id].html",
+  "/user/[id]/followers": "pages/user/[id]/followers.html",
+  "/user/[id]/following": "pages/user/[id]/following.html",
+  "/user/[id]": "pages/user/[id].html",
+  "/user/[id]/likes": "pages/user/[id]/likes.html",
+  "/user/[id]/media": "pages/user/[id]/media.html",
+  "/user/[id]/with_replies": "pages/user/[id]/with_replies.html"
+}

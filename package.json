@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev -p 80",
+    "build:lambda": "netlify-lambda build --config ./config/webpack.functions.js src/lambda",
+    "start:lambda": "netlify-lambda serve --config ./config/webpack.functions.js src/lambda",
     "build": "next build",
     "start": "next start",
     "format": "prettier --check .",
